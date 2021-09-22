@@ -1,5 +1,6 @@
 
 
+
  a {
  	color: #03658c;
  	text-decoration: none;
@@ -239,16 +240,31 @@ body {
 /** =====================
  * Responsive
  ========================*/
-@media only screen and (max-width: 766px) {
+@media (min-width: 768px) and (max-width: 1080px){
 	.comments-container {
-		width: 480px;
+		width: 90%;
 	}
 
 	.comments-list .comment-box {
-		width: 390px;
+		width: 85%;
 	}
 
 	.reply-list .comment-box {
-		width: 320px;
+		width: 85%;
+	}
+}
+
+   
+@media only screen and (max-width: 766px) {
+	.comments-container {
+		width: 460px;
+	}
+
+	.comments-list .comment-box {
+		width: 380px;
+	}
+
+	.reply-list .comment-box {
+		width: 305px;
 	}
 }
