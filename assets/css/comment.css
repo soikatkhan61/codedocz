@@ -254,15 +254,17 @@ body {
 	}
 }
 
-.comments-container {
-		width: 410px;
+@media only screen and (max-width: 766px) {
+	.comments-container {
+		width: 100%;
 	}
 
 	.comments-list .comment-box {
-		width: 325px;
+		width: 80%;
 	}
 
 	.reply-list .comment-box {
-		width: 250px;
+		width: 79%;
 	}
 }
+
