@@ -257,7 +257,7 @@ body {
    
 @media only screen and (max-width: 766px) {
 	.comments-container {
-		width: 460px;
+		width: 450px;
 	}
 
 	.comments-list .comment-box {
