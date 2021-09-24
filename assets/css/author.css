@@ -1,4 +1,5 @@
 
+ 
  .profile {
 	 border-radius: 10px;
 	 background: #fff;
@@ -13,6 +14,8 @@
 }
  .profile__background {
 	 border-radius: 10px 10px 0px 0px;
+	 height: 180px;
+	 width: 100%;
 }
  .profile__picture {
 	 position: absolute;
@@ -97,7 +100,7 @@
 	 padding: 20px;
 	 width: 100%;
 	 border-radius: 0px 0px 10px 10px;
-	 background: #66bb6a;
+	 background: #1dbf73;
 	 color: #fff;
 	 font-size: 18px;
 	 border: none;
@@ -110,17 +113,15 @@
 	 background: red;
 }
 
+@media (min-width: 751px) and (max-width: 880px) {
+	.profile__twitter__stats {
+        flex-basis: 100%; 
+   }
+}
+
 @media only screen and (max-width: 750px) {
 	.profile {
 		width: 400px;
-	}
-
-	.comments-list .comment-box {
-		width: 380px;
-	}
-
-	.reply-list .comment-box {
-		width: 310px;
 	}
 }
 
